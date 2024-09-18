@@ -10,11 +10,10 @@ const ErrorPage = () => {
         <p className="text-lg mb-8">
           It looks like the page you are trying to reach doesn’t exist.
         </p>
-        <Link to="/">
-          <button className="bg-white text-indigo-500 px-6 py-2 rounded-full font-semibold shadow-lg hover:bg-gray-100 transition-all duration-300">
+          <Link to="/" className="bg-white text-indigo-500 px-6 py-2 rounded-full font-semibold shadow-lg hover:bg-gray-100 transition-all duration-300">
             Go Back to Home
-          </button>
-        </Link>
+          </Link>
+
       </div>
     </div>
   );

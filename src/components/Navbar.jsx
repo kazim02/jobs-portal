@@ -13,7 +13,7 @@ const Navbar = () => {
   ];
 
   return (
-    <div className="w-full h-auto p-5 flex flex-row justify-between items-center mx-auto max-w-[1170px]">
+    <nav className="w-full h-auto p-5 flex flex-row justify-between items-center mx-auto max-w-[1170px]">
       <div className="flex gap-2 font-bold items-center">
         <img src="/images/logo/always-apply-logo.svg" alt="" />
         <span className="text-[#6300B3]">AlwaysApply</span>
@@ -103,7 +103,7 @@ const Navbar = () => {
           </Link>
         </div>
       </div>
-    </div>
+    </nav>
   );
 };
 
