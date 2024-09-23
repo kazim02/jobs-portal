@@ -7,6 +7,13 @@ export default {
         "custom-gradient":
           "linear-gradient(0deg, #C599E5 0%, #E2CCF2 80%, #C599E5 100%)",
       },
+      colors: {
+        customWhite: "#FFFFFF",
+        customGrey: "#767F8C",
+        customPurpleLight: "#AE71DB",
+        customPurpleDark: "#6300B3",
+        customPinkLight: "#B781DF",
+      },
     },
   },
   plugins: [],
