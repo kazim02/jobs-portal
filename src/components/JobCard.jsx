@@ -25,7 +25,7 @@ const JobCard = ({ job }) => {
           alt={job.company_name}
           onError={(e) => {
             e.target.src = "/images/default-logo.png";
-          }} // Fallback image
+          }} 
         />
         <div>
           <span>{job.company_name}</span>

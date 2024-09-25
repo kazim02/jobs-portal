@@ -13,9 +13,9 @@ export const JobProvider = ({ children }) => {
   const callApi = async () => {
     try {
       setLoading(true);
-      setError(null); 
+      setError(null);
       const response = await axios.get(API);
-      setJobsData(response.data.jobs); 
+      setJobsData(response.data.jobs);
       setLoading(false);
     } catch (error) {
       setError("Error fetching jobs");
